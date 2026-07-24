@@ -1,8 +1,17 @@
 aid: carrot-fertility
 name: Carrot Fertility
-description: 'Carrot Fertility is a company surfaced as a portfolio company of uncork-capital and added
-  to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Carrot Fertility is a global fertility and family-building benefits
+  platform for employers and health plans, providing members with comprehensive reproductive
+  and family-forming support across more than 195 countries. Carrot covers fertility
+  care and preservation (egg, sperm, and embryo freezing), IVF and other assisted
+  reproduction, surrogacy, adoption, pregnancy and postpartum support, low- and no-cost
+  fertility options, gender-affirming care, and menopause and midlife care. Delivered
+  as a B2B employee benefit with member and provider portals, Carrot pairs concierge
+  care navigation with a network of clinics and experts. The company is HIPAA-compliant
+  and maintains SOC 2 Type II, ISO/IEC 27001, PCI DSS, and HITRUST attestations. This
+  API Evangelist profile tracks Carrot as a healthcare provider surfaced from the Uncork
+  Capital portfolio; Carrot does not currently publish a public developer API, SDKs,
+  or developer portal.'
 url: https://raw.githubusercontent.com/api-evangelist/carrot-fertility/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +19,30 @@ x-backed-by:
 - uncork-capital
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://www.get-carrot.com/favicon.ico
 tags:
 - Company
 - Healthcare
+- Fertility
+- Family Building
+- Employee Benefits
+- Reproductive Health
+- Femtech
+- Digital Health
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +52,20 @@ maintainers:
 common:
 - type: Website
   url: https://www.get-carrot.com
+- type: Blog
+  url: https://www.get-carrot.com/blog
+- type: TrustCenter
+  url: security/carrot-fertility-trust-center.yml
+- type: Compliance
+  url: https://www.get-carrot.com/trust-center
+- type: PrivacyPolicy
+  url: https://www.get-carrot.com/privacy-policy
+- type: TermsOfService
+  url: https://www.get-carrot.com/terms-conditions
+- type: DomainSecurity
+  url: security/carrot-fertility-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
